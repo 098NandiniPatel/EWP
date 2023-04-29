@@ -16,11 +16,24 @@
 #         print("yes")
 #     else:
 #         print("no")
-a="h1"
-match a:
-    case "h0":
-        print(a)
-    case "h1":
-        print("h1")
-    case _:
-        print("default")
+# a="h1"
+# match a:
+#     case "h0":
+#         print(a)
+#     case "h1":
+#         print("h1")
+#     case _:
+#         print("default")
+
+
+
+
+n=4
+a=[int(input("enter value:"))for i in range(n)]
+print(a)
+a.reverse()
+print(a)
+# def rev(lis):
+#     n_lis =lis[::-1]
+#     return n_lis
+# print(rev(a))
